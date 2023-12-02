@@ -82,3 +82,7 @@ boxElements.forEach((el,i,arr)=>{
     }
 
     // iteration4= restart page
+const restart= document.getElementById("button")
+restart.onclick=()=>{
+    window.location.reload();
+}
